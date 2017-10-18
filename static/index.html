@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+
+
+		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+</head>
+<body>
+
+	<div id="app">
+		<a-scene>
+			<a-box v-bind:position="userPos" radius="1.25" rotation="0 45 0" color="#4CC3D9"></a-box>
+			<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+
+			<a-sky color="#ECECEC"></a-sky>
+		</a-scene>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
+
+	<script src="app.js"></script>
+	<script src="socket.js"></script>
+
+
+</body>
